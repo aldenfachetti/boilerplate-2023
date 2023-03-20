@@ -15,19 +15,27 @@ export const Wrapper = styled.main`
 
 export const Ufo = styled.img`
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   top: 0;
-  margin: 16rem 0 0 5rem;
+  margin: 15rem 0 0 5rem;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: transform 0.5s ease-in-out;
+  }
+
+  @media (max-width: 425px) {
+    margin: 17rem 0 0 5rem;
   }
 `
 
 export const Illustration = styled.img`
   width: 35rem;
   z-index: 1;
+
+  @media (max-width: 425px) {
+    width: 30rem;
+  }
 `
 
 export const Title = styled.h1`

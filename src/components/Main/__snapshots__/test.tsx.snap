@@ -27,15 +27,15 @@ exports[`<Main /> should render the headings 1`] = `
 
 .c1 {
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   top: 0;
-  margin: 16rem 0 0 5rem;
+  margin: 15rem 0 0 5rem;
 }
 
 .c1:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   -webkit-transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
@@ -66,6 +66,18 @@ exports[`<Main /> should render the headings 1`] = `
 
 .c4:hover {
   color: #ccff33;
+}
+
+@media (max-width:425px) {
+  .c1 {
+    margin: 17rem 0 0 5rem;
+  }
+}
+
+@media (max-width:425px) {
+  .c2 {
+    width: 30rem;
+  }
 }
 
 <main
