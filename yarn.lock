@@ -1710,7 +1710,7 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@storybook/addon-actions@7.0.6", "@storybook/addon-actions@^7.0.6":
+"@storybook/addon-actions@7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.6.tgz#96f37c687769f282d4746de07eda8a305d4b21ad"
   integrity sha512-H592lkj06bJMX4uwmZI3AVpRFPQ8nkM5j+eo+JQdv0QX9lLZWKnhrGkGDTC/QMSnXMdgHooq0ce9PdGaDvUm1Q==
@@ -1731,6 +1731,28 @@
     telejson "^7.0.3"
     ts-dedent "^2.0.0"
     uuid-browser "^3.1.0"
+
+"@storybook/addon-actions@^7.0.12":
+  version "7.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.12.tgz#61634c40073718cf02967f073df4595afd363521"
+  integrity sha512-f07Mc3qwcG9heGsuUUTIJbWF2nw/Ite3mvyIZY2VbgwhMUMVHj4knY4fh/LojwcUmmmc7CNZu3sJN/wIqpaHCQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.12"
+    "@storybook/components" "7.0.12"
+    "@storybook/core-events" "7.0.12"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.12"
+    "@storybook/preview-api" "7.0.12"
+    "@storybook/theming" "7.0.12"
+    "@storybook/types" "7.0.12"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    polished "^4.2.2"
+    prop-types "^15.7.2"
+    react-inspector "^6.0.0"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    uuid "^9.0.0"
 
 "@storybook/addon-backgrounds@7.0.6":
   version "7.0.6"
@@ -11806,6 +11828,11 @@ uuid-browser@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid-browser/-/uuid-browser-3.1.0.tgz#0f05a40aef74f9e5951e20efbf44b11871e56410"
   integrity sha512-dsNgbLaTrd6l3MMxTtouOCFw4CBFc/3a+GgYA2YyrJvyQ1u6q4pcu3ktLoUZ/VN/Aw9WsauazbgsgdfVWgAKQg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-to-istanbul@^9.0.1:
   version "9.1.0"
